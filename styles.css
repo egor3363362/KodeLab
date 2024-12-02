@@ -172,3 +172,65 @@ footer p {
     font-size: 0.9rem;
     color: #666;
 }
+#application {
+    background: #f0f8ff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.application-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.application-form .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.application-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.application-form input,
+.application-form select,
+.application-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.application-form textarea {
+    resize: none;
+}
+
+.application-form input:focus,
+.application-form select:focus,
+.application-form textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.submit-button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-button:hover {
+    background: #2980b9;
+}
